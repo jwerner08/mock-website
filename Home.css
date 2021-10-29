@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* Top Nav */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: right;
+}
+
+.topnav a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: #05C4FC;
+  ;
+}
+
+/* Body */
+
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#home {
+	font-weight: 500;
+}
+
+#booking-title {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+/* About Section */
+
+#about {
+	width: 100%;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+.Benefits-of-lessons {
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+/* Footer*/
+
+.button {
+	width: 600px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+.footer_banner {
+	background-color: #8DDCF8;
+	padding-top: 1px;
+	padding-bottom: 20PX;
+	padding-left: 48px;
+	padding-right: 48px;
+	margin-bottom: 0px;
+}
+.Signup_Title{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.Email_Field{
+	padding-bottom: 15px;
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Top Nav */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: right;
+}
+
+.topnav a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: #05C4FC;
+  ;
+}
+
+.Title{
+	padding-left: 15px;
+}
+
+
+.Contact_Container {
+	padding-left: 15px;
+	width:300px;
+    height:230px;
+}
+
+#Form_Block {
+	margin-right:800px;
+}
+
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.Message_Field{
+	width: 400px;
+ 	height: 100px;
+}
+
+.button{
+	font-size: 14px;
+}
+
+#Form_Block{
+	border: 0;
+}
